@@ -8,7 +8,8 @@ Usage
 
 Requires Riot 2.2+
 
-1) Include riotbus.js to your project
+1) Include riotbus.js or riotbus.min.js to your project
+
 2) Add line code to all your tags
 
 ```
@@ -23,3 +24,8 @@ To call event for all tags just add
 ```
 	this.bus.trigger('event',{some: "params"})
 ```
+
+Demo
+============
+
+[Demo](http://plnkr.co/edit/xkIKrP9Y4j6TmzeLJSVQ?p=preview)

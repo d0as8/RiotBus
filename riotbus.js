@@ -1,6 +1,6 @@
 ﻿var RiotBusMixin = {
     init: function() {
-        this.bus.tags.push(this)
+        this.bus.tags.push(this);
     },
 
     bus: {
