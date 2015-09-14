@@ -44,5 +44,6 @@ Demo
 Warnings
 ============
 
+As is
 Do not trigger bus event in any event handler
 
