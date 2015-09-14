@@ -39,3 +39,10 @@ Demo
 ============
 
 [Demo](http://plnkr.co/edit/xkIKrP9Y4j6TmzeLJSVQ?p=preview)
+
+
+Warnings
+============
+
+Do not trigger bus event in any event handler
+
