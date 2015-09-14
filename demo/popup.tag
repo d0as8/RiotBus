@@ -1,10 +1,9 @@
 <popup>
-  <p>I am a popup { opts.title }</p>
-  <p>{ status }</p>
+  <p>I am a popup { opts.title }. My status is { status }</p>
 
-  this.mixin(RiotBusMixin)
+  this.mixin('RiotBusMixin')
 
-  this.status = ''
+  this.status = 'empty'
   
   this.on('click', function(e){
     this.status = e

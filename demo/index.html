@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="riotbus.min.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-  <body>
-  
-    <popup title="Popup1"></popup>
-    <popup title="Popup2"></popup>
-    <popup title="Popup3"></popup>
-    <popup title="Popup4"></popup>
-    <widget title="Widget"><widget>
-      
+<body>
+  <popup title="Popup1"></popup>
+  <popup title="Popup2"></popup>
+  <popup title="Popup3"></popup>
+  <popup title="Popup4"></popup>
+  <widget title="Widget"></widget>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/2.2.4/riot+compiler.min.js"></script>
 
+  <script src="riotbus.min.js"></script>
   <script type="riot/tag" src="widget.tag"></script>
   <script type="riot/tag" src="popup.tag"></script>
   <script>
+    riot.mixin('RiotBusMixin', RiotBusMixin)
     riot.mount('*')
   </script>
-  </body>
+</body>
 
 </html>
