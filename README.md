@@ -16,6 +16,16 @@ Requires Riot 2.2+
 	this.mixin(RiotBusMixin)
 ```
 
+OR do it via sharing mixin:
+
+```
+	riot.mixin('RiotBusMixin',RiotBusMixin)
+```
+
+```
+	this.mixin('RiotBusMixin')
+```
+
 API
 ============
 
