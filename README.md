@@ -8,7 +8,7 @@ Usage
 
 Requires Riot 2.2+
 
-1) Include riotbus.js or riotbus.min.js to your project
+1) Include riot-bus.js or riot-bus.min.js to your project
 
 2) Add line code to all your tags
 
@@ -43,6 +43,8 @@ Demo
 
 Warnings
 ============
+
+As is
 
 Do not trigger bus event in any event handler
 
