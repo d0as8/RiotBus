@@ -1,4 +1,4 @@
-<widget>
+﻿<widget>
   <button id="test" onclick={ click }>I am a widget { title }</button>
 
   this.mixin('RiotBusMixin')

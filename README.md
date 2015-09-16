@@ -13,13 +13,13 @@ Requires Riot 2.2+
 2) Add line code to all your tags
 
 ```
-	this.mixin(RiotBusMixin)
+	this.mixin(new RiotBusMixinClass())
 ```
 
 OR do it via sharing mixin:
 
 ```
-	riot.mixin('RiotBusMixin',RiotBusMixin)
+	riot.mixin('RiotBusMixin',new RiotBusMixinClass())
 ```
 
 ```

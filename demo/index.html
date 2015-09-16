@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -21,7 +21,7 @@
   <script type="riot/tag" src="widget.tag"></script>
   <script type="riot/tag" src="popup.tag"></script>
   <script>
-    riot.mixin('RiotBusMixin', RiotBusMixin)
+    riot.mixin('RiotBusMixin', new RiotBusMixinClass())
     riot.mount('*')
   </script>
 </body>
